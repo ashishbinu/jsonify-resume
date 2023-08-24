@@ -2,13 +2,15 @@ import datetime
 import json
 import os
 import re
+import sys
 from io import BufferedReader
+from pathlib import Path
 from typing import Tuple
 
 import magic
 import typer
 from dotenv import load_dotenv
-from revChatGPT.V1 import Chatbot, sys
+from revChatGPT.V1 import Chatbot
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
@@ -41,9 +43,10 @@ def convert_to_text(filename: str | os.PathLike) -> str:
 
 
 def generate_prompt(resume: str) -> str:
-    with open(SCHEMA_FILE, "r") as f:
+    project_root = Path(__file__).parent.parent
+    with open(project_root / SCHEMA_FILE, "r") as f:
         schema = f.read()
-    with open(PROMPT_FILE, "r") as f:
+    with open(project_root / PROMPT_FILE, "r") as f:
         instruction = f.read()
 
     prompt = f"""### RESUME ###
