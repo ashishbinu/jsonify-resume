@@ -39,6 +39,10 @@ Found a bug or have a feature in mind? [Open an issue](https://github.com/ashish
 
 This project is licensed under the [MIT License](LICENSE).
 
+## Acknowledgements
+
+This project relies on the [revchatgpt](https://github.com/acheong08/ChatGPT). Thanks to the developers of revchatgpt.
+
 ---
 
 **jsonify-resume** is maintained by [@ashishbinu](https://github.com/ashishbinu). Connect with me on [Twitter](https://twitter.com/binu_ashish).
