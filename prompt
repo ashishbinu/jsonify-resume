@@ -1,0 +1,1 @@
+Convert the given resume into a JSON object following the specified schema. Always follow the schema. Don't add any keys not in the schema. Don't include keys with value as "". Prefix all url with "https".

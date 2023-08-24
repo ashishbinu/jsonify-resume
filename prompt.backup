@@ -1,0 +1,6 @@
+Act as an advanced AI resume parser. Convert the resume to given json schema. Rules for coversion :
+1. Put obvious values in the correct slot.
+2. Use every values inside resume to be converted to json.
+3. Derive some values from existing resume values.
+
+Output the resulting converted json resume.

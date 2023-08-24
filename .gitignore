@@ -1,0 +1,4 @@
+.env
+dist
+todo.md
+**/__pycache__/
