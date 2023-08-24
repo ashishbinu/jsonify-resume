@@ -5,7 +5,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/ashishbinu/jsonify-resume.svg)](https://github.com/ashishbinu/jsonify-resume/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ashishbinu/jsonify-resume.svg)](https://github.com/ashishbinu/jsonify-resume/pulls)
 
-**jsonify-resume** is a command-line tool that converts resumes into JSON Resume schema. Use this tool to streamline the conversion process and create structured online resumes.
+**jsonify-resume** is a command-line tool that converts resumes into JSON Resume schema. Use this tool to save time on the conversion process.
 
 ## Installation
 
